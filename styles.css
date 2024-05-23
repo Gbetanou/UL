@@ -1,0 +1,362 @@
+a {
+    text-decoration: none;
+}
+
+html,
+body {
+padding: 0;
+margin: 0;
+font-family: roboto-regular;
+font-size: 14px;
+}
+
+.banner-content {
+position: absolute;
+left: 0;
+right: 0;
+top: 100px;
+bottom: 100px;
+align-self: center;
+text-align: center;
+width: fit-content;
+margin: auto;
+
+}
+.bg-blue {
+    background-color:#054FBD !important ;
+}
+.bg-green{
+    background-color: #049f1d !important;
+}
+.bg-purple{
+    background-color: #9705c0 !important;
+}
+.button-primary,
+.button-light {
+    background-color: #054FBD;
+    color: #FFF;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.button-light {
+    background-color: #e5edf8;
+    color: #054FBD;
+}
+
+.button-light:hover {
+    background-color: #FFF;
+    color:#054FBD
+}
+.button-lg {
+padding: 1.3rem 2rem;
+font-family: roboto-bold;
+}
+
+.button-primary:hover {
+    background-color: #0a5cd8;
+}
+
+
+.container-sm {
+    padding: 0 20%;
+}
+
+.container {
+    padding: 0 15%;
+}
+
+.d-grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 30px;
+}
+.d-grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+
+}
+
+.d-grid-3>div {
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    padding: 20px;
+    background-color: #FFF;
+}
+
+.d-grid-3>div.card {
+    box-shadow: none;
+    color: #FFF;
+}
+
+.d-grid-3>div.card .card-title {
+    font-family: roboto-bold;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.d-grid-3>div.card .separator {
+    border-top: 1px solid#FFF;
+    margin: 14px 0;
+    width: 90px;
+}
+
+.d-grid-3>div.card .card-button{
+    background-color: #dbe4f2;
+    color: #054FBD;
+    padding: 7px 15px;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    font-size: 12px;
+    font-family: roboto-bold;
+}
+.d-grid-3>div.card .card-button:hover {
+    background-color: #FFF;
+}
+
+.d-grid-3>div.card .card-text {
+    line-height: 20px;
+}
+
+.d-grid-3>div .section-text {
+line-height: 20px;
+font-family: roboto-light;
+}
+
+.d-grid-3>div .section-title, .section-header .section-title {
+    font-family: roboto-bold;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+
+.d-grid-3>div .section-header .separator, .section-header .separator {
+    border-top: 1px solid #0a5cd8;
+    margin: 16px auto;
+    width: 100px;
+}
+
+
+.d-grid-4>div>img {
+    border-radius: 14px;
+}
+
+.full-banner{
+    background-image: url(./assets/images/library.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+#title{
+    color:#FFF;
+    font-size: 5vw;
+    font-family: roboto-thin;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.mask{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    height:100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu-bar {
+    padding: 0 10%;
+}
+
+.menu-bar .menu-items {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style-type: none;
+}
+
+.menu-bar .menu-items li {
+   display: inline-block;
+   font-family: roboto-bold;
+   margin: 0 10px;
+}
+
+.menu-bar .menu-items li a{
+    color: #ddd;
+}
+
+.menu-bar .menu-items li a:hover{
+    color: #FFF;
+}
+
+.menu-bar table tr td .menu-buttons {
+    text-align: right;
+}
+
+.menu-bar table .logo-td,
+.menu-bar table .logo-buttons {
+    width: 150px;
+}
+
+.middle-zone {
+    background-image: url(./assets/images/education.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.middle-zone-mask{
+    background-color: rgba(0, 0 , 0, 0.5);
+    color: #FFF;
+}
+.middle-zone-mask .middle-zone-title {
+    font-family: roboto-bold;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.middle-zone-mask .middle-zone-separator {
+    border-top:1px solid#FFF;
+    width: 100px;
+    margin: 20px auto;
+}
+
+.middle-zone-mask .middle-zone-text {
+    max-width:450px;
+    margin: auto;
+    line-height: 20px;
+}
+
+.roboto-thin {
+    font-family: roboto-thin;
+}
+.roboto-regular {
+    font-family: roboto-regular;
+}
+.roboto-medium {
+    font-family: roboto-medium;
+}
+
+.roboto-bold {
+    font-family: roboto-bold;
+}
+
+.roboto-black {
+    font-family: roboto-black;
+}
+
+.section-- {
+    margin-top: -20px;
+    position: relative;
+}
+
+.section-header .section-title-lg {
+    font-size: 24px;
+    font-family: roboto-bold;
+    color: #0491FD;
+}
+
+.social-media-cover {
+    position: fixed;
+    left: 10px;
+    top: 100px;
+    bottom: 100px;
+    width: 40px;
+    display: flex;
+}
+
+.social-media-cover>div {
+    align-self: center;
+    background-color: #e5edf8;
+    border-radius: 4px;
+    padding: 4px
+}
+
+.slogan {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-family: roboto-bold;
+    font-size: 20px;
+    padding: 0 20px;
+    border-left: 5px solid #049F1D;
+    width: fit-content;
+    align-self: center;
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+#image-scroller{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 100px;
+}
+    
+#image-container{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    white-space: nowrap;
+    transition: transform 0.3s ease;
+    position: relative;
+    margin-right: 5px;
+}
+    
+
+
+
+
+@font-face {
+    font-family: roboto-thin;
+    src: url(../styles.css/fonts/roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src:url(../styles.css/fonts/roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../styles.css/fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-medium; 
+    src: url(../styles.css/fonts/roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url(../styles.css/fonts/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto-black;
+    src: url(../styles.css/fonts/roboto/Roboto-Black.ttf);
+}
+
